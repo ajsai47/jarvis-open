@@ -2,6 +2,32 @@
 
 Jarvis is a single-user, voice-first assistant for macOS. It can look up information, queue background tasks, and present editable drafts for review. This is a release candidate, not a hosted or multi-user service.
 
+![Jarvis main screen](demo/web.png)
+
+## See it work
+
+**It asks, you edit, it sends exactly that.** Every draft shows up as a card with who it's to, the channel and the exact words. Change them and the button becomes **Send my edit**.
+
+![Editable draft demo](demo/draft.gif)
+
+**Ask several things at once.** Each request gets its own card and runs side by side; sends wait for your OK. (Recorded in mock mode, so the names and replies are fixtures.)
+
+![Many requests at once demo](demo/many.gif)
+
+**Simple things are instant.** Volume, dark mode and opening or quitting apps skip the LLM.
+
+![Instant actions demo](demo/jev.gif)
+
+**It can reach a spare iPhone too.** With the optional phone integration, Jarvis reads a spare iPhone over USB for apps with no Mac version.
+
+![Spare iPhone demo](demo/phone.gif)
+
+Settings work on a phone-sized screen as well:
+
+<img src="demo/phone-settings.png" alt="Settings on a phone-sized screen" width="260">
+
+Private details in tool steps are blurred in these recordings.
+
 ## What is implemented
 
 - A local FastAPI server and web UI, with an optional native macOS notch UI.
