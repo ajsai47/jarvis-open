@@ -1,0 +1,14 @@
+.env
+.env.*
+*.tmp
+.venv/
+.venv-voice/
+__pycache__/
+*.pyc
+.DS_Store
+demo/raw/
+logs/
+google_client.json
+gmail_token.json
+rules.md
+people.json
